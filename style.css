@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: #43a047;
+    background-image: url("https://unsplash.com/photos/blue-skies-filled-of-stars-W8KTS-mhFUE");
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .wrapper{
@@ -38,11 +40,20 @@ span{
 }
 
 button{
-    background-color: #43a047;
+    background-color: #6980e8;
     border: none;
     border-radius: 5px;
     padding: 5px;
     color: #fff;
+}
+
+button:hover{
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #6980e8;
+
 }
 
 input[type="color"]{
